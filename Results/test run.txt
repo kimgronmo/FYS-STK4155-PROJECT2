@@ -1,0 +1,403 @@
+(base) C:\Users\kimgr\Downloads\STUDY\Master\2021\fys-stk4155\project2>python project2.py
+---------------------
+Running main function
+---------------------
+
+Generating the FrankeFunction Dataset: Done
+
+Starting Project 2: part a
+
+Checking if my code works correctly:
+My MSE is: 0.0016
+My R2 score is: 0.9811
+
+Testing against sklearn OLS:
+MSE after scaling: 0.0016
+R2 score after scaling: 0.9811
+
+
+
+Checking to see if my GradientDescent code works correctly:
+My MSE is: 0.0128
+My R2 score is: 0.8485
+
+##### Printing data to files: #####
+Starting printer to generate data:
+
+Calculating R2 value for eta:  1e-05  using OLS
+Calculating R2 value for eta:  0.0001  using OLS
+Calculating R2 value for eta:  0.001  using OLS
+Calculating R2 value for eta:  0.01  using OLS
+Calculating R2 value for eta:  0.1  using OLS
+Calculating R2 value for eta:  1.0  using OLS
+Calculating R2 value for eta:  10.0  using OLS
+Calculating R2 value for eta:  1e-05  using Ridge
+Calculating R2 value for eta:  0.0001  using Ridge
+Calculating R2 value for eta:  0.001  using Ridge
+Calculating R2 value for eta:  0.01  using Ridge
+Calculating R2 value for eta:  0.1  using Ridge
+Calculating R2 value for eta:  1.0  using Ridge
+Calculating R2 value for eta:  10.0  using Ridge
+Calculating R2 value for mini batch size:  2  using OLS
+Calculating R2 value for mini batch size:  4  using OLS
+Calculating R2 value for mini batch size:  6  using OLS
+Calculating R2 value for mini batch size:  8  using OLS
+Calculating R2 value for mini batch size:  10  using OLS
+Calculating R2 value for mini batch size:  12  using OLS
+Calculating R2 value for mini batch size:  2  using Ridge
+Calculating R2 value for mini batch size:  4  using Ridge
+Calculating R2 value for mini batch size:  6  using Ridge
+Calculating R2 value for mini batch size:  8  using Ridge
+Calculating R2 value for mini batch size:  10  using Ridge
+Calculating R2 value for mini batch size:  12  using Ridge
+Calculating R2 values for epochs. This is very time consuming
+Calculating R2 value for epoch:  1000  using OLS
+Calculating R2 value for epoch:  2000  using OLS
+Calculating R2 value for epoch:  3000  using OLS
+Calculating R2 value for epoch:  4000  using OLS
+Calculating R2 value for epoch:  5000  using OLS
+Calculating R2 value for epoch:  6000  using OLS
+Calculating R2 value for epoch:  7000  using OLS
+Calculating R2 value for epoch:  8000  using OLS
+Calculating R2 value for epoch:  9000  using OLS
+Calculating R2 value for epoch:  10000  using OLS
+Calculating R2 value for epoch:  1000  using Ridge
+Calculating R2 value for epoch:  2000  using Ridge
+Calculating R2 value for epoch:  3000  using Ridge
+Calculating R2 value for epoch:  4000  using Ridge
+Calculating R2 value for epoch:  5000  using Ridge
+Calculating R2 value for epoch:  6000  using Ridge
+Calculating R2 value for epoch:  7000  using Ridge
+Calculating R2 value for epoch:  8000  using Ridge
+Calculating R2 value for epoch:  9000  using Ridge
+Calculating R2 value for epoch:  10000  using Ridge
+
+Calculating R2 for eta vs mini batch size for OLS regression
+Calculating R2 using eta:  1e-05  lambda:  2
+Calculating R2 using eta:  1e-05  lambda:  4
+Calculating R2 using eta:  1e-05  lambda:  6
+Calculating R2 using eta:  1e-05  lambda:  8
+Calculating R2 using eta:  1e-05  lambda:  10
+Calculating R2 using eta:  1e-05  lambda:  12
+Calculating R2 using eta:  0.0001  lambda:  2
+Calculating R2 using eta:  0.0001  lambda:  4
+Calculating R2 using eta:  0.0001  lambda:  6
+Calculating R2 using eta:  0.0001  lambda:  8
+Calculating R2 using eta:  0.0001  lambda:  10
+Calculating R2 using eta:  0.0001  lambda:  12
+Calculating R2 using eta:  0.001  lambda:  2
+Calculating R2 using eta:  0.001  lambda:  4
+Calculating R2 using eta:  0.001  lambda:  6
+Calculating R2 using eta:  0.001  lambda:  8
+Calculating R2 using eta:  0.001  lambda:  10
+Calculating R2 using eta:  0.001  lambda:  12
+Calculating R2 using eta:  0.01  lambda:  2
+Calculating R2 using eta:  0.01  lambda:  4
+Calculating R2 using eta:  0.01  lambda:  6
+Calculating R2 using eta:  0.01  lambda:  8
+Calculating R2 using eta:  0.01  lambda:  10
+Calculating R2 using eta:  0.01  lambda:  12
+Calculating R2 using eta:  0.1  lambda:  2
+Calculating R2 using eta:  0.1  lambda:  4
+Calculating R2 using eta:  0.1  lambda:  6
+Calculating R2 using eta:  0.1  lambda:  8
+Calculating R2 using eta:  0.1  lambda:  10
+Calculating R2 using eta:  0.1  lambda:  12
+Calculating R2 using eta:  1.0  lambda:  2
+Calculating R2 using eta:  1.0  lambda:  4
+Calculating R2 using eta:  1.0  lambda:  6
+Calculating R2 using eta:  1.0  lambda:  8
+Calculating R2 using eta:  1.0  lambda:  10
+Calculating R2 using eta:  1.0  lambda:  12
+Calculating R2 using eta:  10.0  lambda:  2
+Calculating R2 using eta:  10.0  lambda:  4
+Calculating R2 using eta:  10.0  lambda:  6
+Calculating R2 using eta:  10.0  lambda:  8
+Calculating R2 using eta:  10.0  lambda:  10
+Calculating R2 using eta:  10.0  lambda:  12
+
+##### Printing data to files: #####
+Starting printer to generate data:
+
+
+Printing R2 scores for OLS regression using sgd to file
+
+Calculating R2 for eta vs lambda for Ridge regression
+Calculating R2 using eta:  1e-05  lambda:  1e-05
+Calculating R2 using eta:  1e-05  lambda:  0.0001
+Calculating R2 using eta:  1e-05  lambda:  0.001
+Calculating R2 using eta:  1e-05  lambda:  0.01
+Calculating R2 using eta:  1e-05  lambda:  0.1
+Calculating R2 using eta:  1e-05  lambda:  1.0
+Calculating R2 using eta:  1e-05  lambda:  10.0
+Calculating R2 using eta:  0.0001  lambda:  1e-05
+Calculating R2 using eta:  0.0001  lambda:  0.0001
+Calculating R2 using eta:  0.0001  lambda:  0.001
+Calculating R2 using eta:  0.0001  lambda:  0.01
+Calculating R2 using eta:  0.0001  lambda:  0.1
+Calculating R2 using eta:  0.0001  lambda:  1.0
+Calculating R2 using eta:  0.0001  lambda:  10.0
+Calculating R2 using eta:  0.001  lambda:  1e-05
+Calculating R2 using eta:  0.001  lambda:  0.0001
+Calculating R2 using eta:  0.001  lambda:  0.001
+Calculating R2 using eta:  0.001  lambda:  0.01
+Calculating R2 using eta:  0.001  lambda:  0.1
+Calculating R2 using eta:  0.001  lambda:  1.0
+Calculating R2 using eta:  0.001  lambda:  10.0
+Calculating R2 using eta:  0.01  lambda:  1e-05
+Calculating R2 using eta:  0.01  lambda:  0.0001
+Calculating R2 using eta:  0.01  lambda:  0.001
+Calculating R2 using eta:  0.01  lambda:  0.01
+Calculating R2 using eta:  0.01  lambda:  0.1
+Calculating R2 using eta:  0.01  lambda:  1.0
+Calculating R2 using eta:  0.01  lambda:  10.0
+Calculating R2 using eta:  0.1  lambda:  1e-05
+Calculating R2 using eta:  0.1  lambda:  0.0001
+Calculating R2 using eta:  0.1  lambda:  0.001
+Calculating R2 using eta:  0.1  lambda:  0.01
+Calculating R2 using eta:  0.1  lambda:  0.1
+Calculating R2 using eta:  0.1  lambda:  1.0
+Calculating R2 using eta:  0.1  lambda:  10.0
+Calculating R2 using eta:  1.0  lambda:  1e-05
+Calculating R2 using eta:  1.0  lambda:  0.0001
+Calculating R2 using eta:  1.0  lambda:  0.001
+Calculating R2 using eta:  1.0  lambda:  0.01
+Calculating R2 using eta:  1.0  lambda:  0.1
+Calculating R2 using eta:  1.0  lambda:  1.0
+Calculating R2 using eta:  1.0  lambda:  10.0
+Calculating R2 using eta:  10.0  lambda:  1e-05
+Calculating R2 using eta:  10.0  lambda:  0.0001
+Calculating R2 using eta:  10.0  lambda:  0.001
+Calculating R2 using eta:  10.0  lambda:  0.01
+Calculating R2 using eta:  10.0  lambda:  0.1
+Calculating R2 using eta:  10.0  lambda:  1.0
+Calculating R2 using eta:  10.0  lambda:  10.0
+
+Printing R2 scores for Ridge regression using sgd to file
+
+Method completed is:  OLS  regression
+Number of epochs completed:  10000
+My R2 score is: 0.9495
+Scaling:  False
+
+Method completed is:  OLS  regression
+Number of epochs completed:  10000
+My R2 score is: 0.9424
+Scaling:  True
+
+
+Summary of results:
+
+Method completed is:  OLS  regression
+Number of epochs completed:  10000
+My R2 score is: 0.9567
+Scaling:  False
+
+Method completed is:  Ridge  regression
+Number of epochs completed:  10000
+My R2 score is: 0.9053
+Scaling:  False
+
+
+
+Starting Project 2: part b and c
+
+
+Training neural network for regression for eta:  1e-05  and lambda:  1e-05
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  1e-05  and lambda:  0.0001
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  1e-05  and lambda:  0.001
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  1e-05  and lambda:  0.01
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  1e-05  and lambda:  0.1
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  1e-05  and lambda:  1.0
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  1e-05  and lambda:  10.0
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.0001  and lambda:  1e-05
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.0001  and lambda:  0.0001
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.0001  and lambda:  0.001
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.0001  and lambda:  0.01
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.0001  and lambda:  0.1
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.0001  and lambda:  1.0
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.0001  and lambda:  10.0
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.001  and lambda:  1e-05
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.001  and lambda:  0.0001
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.001  and lambda:  0.001
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.001  and lambda:  0.01
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.001  and lambda:  0.1
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.001  and lambda:  1.0
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.001  and lambda:  10.0
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.01  and lambda:  1e-05
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.01  and lambda:  0.0001
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.01  and lambda:  0.001
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.01  and lambda:  0.01
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.01  and lambda:  0.1
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.01  and lambda:  1.0
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.01  and lambda:  10.0
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.1  and lambda:  1e-05
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.1  and lambda:  0.0001
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.1  and lambda:  0.001
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.1  and lambda:  0.01
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.1  and lambda:  0.1
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.1  and lambda:  1.0
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.1  and lambda:  10.0
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  1.0  and lambda:  1e-05
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  1.0  and lambda:  0.0001
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  1.0  and lambda:  0.001
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  1.0  and lambda:  0.01
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  1.0  and lambda:  0.1
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  1.0  and lambda:  1.0
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  1.0  and lambda:  10.0
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  10.0  and lambda:  1e-05
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  10.0  and lambda:  0.0001
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  10.0  and lambda:  0.001
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  10.0  and lambda:  0.01
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  10.0  and lambda:  0.1
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  10.0  and lambda:  1.0
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  10.0  and lambda:  10.0
+Chosen activation function is:  sigmoid
+
+##### Printing data to files: #####
+Starting printer to generate data:
+
+
+Printing R2 scores for Neural Network Regression to file
+
+Printing MSE scores for Neural Network Regression to file
+Training NN using sigmoid activation function
+Chosen activation function is:  sigmoid
+
+Values calculated for test data:
+The NeuralNetwork MSE score is: 0.0070
+The NeuralNetwork R2 score is: 0.9168
+
+Values calculated for training data:
+The NeuralNetwork MSE score is: 0.0071
+The NeuralNetwork R2 score is: 0.9197
+Training NN using RELU activation function
+Chosen activation function is:  RELU
+
+Values calculated for test data:
+The NeuralNetwork MSE score is: 0.0083
+The NeuralNetwork R2 score is: 0.9016
+
+Values calculated for training data:
+The NeuralNetwork MSE score is: 0.0022
+The NeuralNetwork R2 score is: 0.9751
+Training NN using LeakyRELU activation function
+Chosen activation function is:  LeakyRELU
+
+Values calculated for test data:
+The NeuralNetwork MSE score is: 0.0058
+The NeuralNetwork R2 score is: 0.9307
+
+Values calculated for training data:
+The NeuralNetwork MSE score is: 0.0038
+The NeuralNetwork R2 score is: 0.9566
+
+Generating dataset from Wisconsin Breast Cancer Data
+
+Accuracy score on training set: 0.6198
+Accuracy score on test set: 0.6579
+
+Starting Project 2: part d
+
+##### Printing data to files: #####
+Starting printer to generate data:
+
+
+Printing results for dataset  WBC  to file
+
+
+
+Starting Project 2: part e
+
+
+Logistic regression using  WBC  image data
+
+Using Scikit-Learn:
+Accuracy of training data:  0.8967032967032967
+Accuracy of test data:  0.9122807017543859
+
+Generating accuracy scores for Logistic Regression
+
+##### Printing data to files: #####
+Starting printer to generate data:
+
+
+Printing results for dataset  WBC  to file
+
+Generating dataset from MNIST
+
+
+Starting Project 2: part d
+
+##### Printing data to files: #####
+Starting printer to generate data:
+
+
+Printing results for dataset  MNIST  to file
+
+
+
+Starting Project 2: part e
+
+
+Logistic regression using  MNIST  image data
+
+Using Scikit-Learn:
+Accuracy of training data:  1.0
+Accuracy of test data:  0.9583333333333334
+
+Generating accuracy scores for Logistic Regression
+
+##### Printing data to files: #####
+Starting printer to generate data:
+
+
+Printing results for dataset  MNIST  to file
